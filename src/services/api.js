@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://fastlane-retail-nodejs.vercel.app';
+const API_URL = 'https://fastlane-retail-api.onrender.com';
 
 export const getProducts = async () => {
   const response = await axios.get(`${API_URL}/products`);
